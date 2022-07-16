@@ -839,8 +839,7 @@ footer .btn:hover {
 	opacity: .7;
 }
 
-/*PROPERTIES FOR MAKING WEBSITE RESPONSIVE*/
-@media screen and (max-width: 960px) {
+ @media screen and (max-width: 960px) {
 	.footer-container {
 		max-width: 600px;
 	}

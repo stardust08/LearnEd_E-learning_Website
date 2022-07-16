@@ -135,8 +135,7 @@ body {
 	visibility: hidden;
 }
 
-/*TITLE*/
-.title {
+ .title {
 	margin-top: 18%;
 	display: grid;
 	justify-content: center;
@@ -171,16 +170,13 @@ body {
 .title button:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-
-/*PANEL*/
-.panel {
+ .panel {
 	display: none;
 	width: 100%;
 	height: 100vh;
 	position: fixed;
 }
-/*Different Topics Container*/
-.left-side {
+ .left-side {
 	background: #FFF;
 	height: 100%;
 	width: 25%;
@@ -190,7 +186,7 @@ body {
 					0 0 30px rgba(0,0,0,0.5);
 }
 
-/*Google Form Container*/
+ 
 .right-side {
 	background: #fff;
 	height: 100%;

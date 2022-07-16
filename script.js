@@ -1,13 +1,3 @@
-// Changing the style of scroll bar
-// window.onscroll = function() {myFunction()};
-		
-// function myFunction() {
-// 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-// 	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-// 	var scrolled = (winScroll / height) * 100;
-// 	document.getElementById("myBar").style.width = scrolled + "%"; 
-// }
-
 function scrollAppear() {
   var introText = document.querySelector('.side-text');
   var sideImage = document.querySelector('.sideImage');
@@ -26,8 +16,7 @@ function scrollAppear() {
 
 window.addEventListener('scroll', scrollAppear);
 
-// For switching between navigation menus in mobile mode
-var i = 2;
+ var i = 2;
 function switchTAB() {
 	var x = document.getElementById("list-switch");
 	if(i%2 == 0) {
@@ -66,8 +55,7 @@ function login() {
   b.style.color = "#000";
 }
   
-// CheckBox Function
-function goFurther(){
+ function goFurther(){
   if (document.getElementById("chkAgree").checked == true) {
     document.getElementById('btnSubmit').style = 'background: linear-gradient(to right, #FA4B37, #DF2771);';
   }
